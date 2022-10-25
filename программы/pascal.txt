@@ -1,0 +1,10 @@
+Program pascal;
+var a,b:integer;
+begin
+    writeln('Введите число: ');
+    readln(a);
+    writeln('Введите число: ');
+    readln(b);
+    a:=a*b;
+    write(a);
+end.
